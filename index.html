@@ -36,11 +36,60 @@ code{font:600 13px ui-monospace,Menlo,monospace;background:var(--bg);border:1px 
 .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
 .box ul{margin:0;padding-left:18px} .box li span{color:var(--muted)}
 a{color:var(--accent)}
+.fri{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.fh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ftext{white-space:pre-wrap;margin-top:8px;overflow-wrap:anywhere}
+.ftext:empty::before{content:"Nothing added yet";color:var(--muted);font-size:13.5px}
+.fby{margin-top:6px}
+.fform textarea,.fform input{width:100%;font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.fform textarea{margin-top:10px;resize:vertical}
+.frow{display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.frow input{flex:1 1 140px}
+.edit,.save,.cancel{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:5px 14px;font-weight:600;font-size:13px;cursor:pointer}
+.save{background:var(--accent);border-color:var(--accent);color:#fff}
 @media (max-width:560px){.ev{grid-template-columns:auto 1fr} .side{grid-column:1 / -1;text-align:left;border-top:1px solid var(--line);padding-top:8px;margin-top:4px}
  .ev > .main:first-child{grid-column:1 / -1}}
 </style></head><body><div class="wrap">
 <h1>5th Adeyfield Scouts – Events</h1>
-<div class="upd">Updated Sat 21 Nov, 00:13</div>
+<div class="upd">Updated Sat 21 Nov, 09:36</div>
+<h2>This Friday · Fri 27 Nov</h2><div class="fri" data-role="squirrels" style="--c:#d9534f">
+  <div class="fh"><div><div class="t">5th Hemel Squirrels</div><div class="sub">5pm–5:45pm</div></div>
+  <button class="edit" type="button">Edit</button></div>
+  <div class="ftext"></div>
+  <div class="fby muted"></div>
+  <form class="fform" hidden>
+    <textarea rows="6" maxlength="1000" placeholder="Activities for this meeting - type, or paste from WhatsApp"></textarea>
+    <div class="frow"><input class="fname" maxlength="40" placeholder="Your name" autocomplete="name">
+    <input class="fcode" maxlength="20" placeholder="Leaders' code" autocapitalize="characters" autocomplete="off"></div>
+    <div class="frow"><button class="save" type="submit">Save</button><button class="cancel" type="button">Cancel</button>
+    <span class="fmsg muted"></span></div>
+  </form>
+</div><div class="fri" data-role="beavers" style="--c:#1f7a8c">
+  <div class="fh"><div><div class="t">5th Hemel Beavers</div><div class="sub">6pm–7pm</div></div>
+  <button class="edit" type="button">Edit</button></div>
+  <div class="ftext">TEST - ignore (Claude)
+Line two &lt;b&gt;not bold&lt;/b&gt; &amp; &quot;quotes&quot;</div>
+  <div class="fby muted"></div>
+  <form class="fform" hidden>
+    <textarea rows="6" maxlength="1000" placeholder="Activities for this meeting - type, or paste from WhatsApp"></textarea>
+    <div class="frow"><input class="fname" maxlength="40" placeholder="Your name" autocomplete="name">
+    <input class="fcode" maxlength="20" placeholder="Leaders' code" autocapitalize="characters" autocomplete="off"></div>
+    <div class="frow"><button class="save" type="submit">Save</button><button class="cancel" type="button">Cancel</button>
+    <span class="fmsg muted"></span></div>
+  </form>
+</div><div class="fri" data-role="cubs5" style="--c:#2e7d32">
+  <div class="fh"><div><div class="t">5th Hemel Cubs</div><div class="sub">7pm–8:30pm</div></div>
+  <button class="edit" type="button">Edit</button></div>
+  <div class="ftext"></div>
+  <div class="fby muted"></div>
+  <form class="fform" hidden>
+    <textarea rows="6" maxlength="1000" placeholder="Activities for this meeting - type, or paste from WhatsApp"></textarea>
+    <div class="frow"><input class="fname" maxlength="40" placeholder="Your name" autocomplete="name">
+    <input class="fcode" maxlength="20" placeholder="Leaders' code" autocapitalize="characters" autocomplete="off"></div>
+    <div class="frow"><button class="save" type="submit">Save</button><button class="cancel" type="button">Cancel</button>
+    <span class="fmsg muted"></span></div>
+  </form>
+</div>
 <div class="filters"><button class="f on" data-r="">All</button><button class="f" data-r="squirrels">Squirrels</button><button class="f" data-r="beavers">Beavers</button><button class="f" data-r="cubs5">Cubs</button><button class="f" data-r="other">Scouts, Explorers &amp; District</button></div>
 <h2>Changes from emails</h2><div class="box"><ul><li><b>Fri 11 Dec</b> Last session at AFC for 2026.</li><li><b>Fri 4 Dec</b> Replaces normal session.</li><li><b>Fri 4 Dec</b> Cub Christingle replaces normal session.</li><li><b>Fri 11 Dec</b> Last session for 2026 before Christmas party.</li><li><b>Fri 4 Dec</b> Event replaces normal session.</li><li><b>Fri 11 Dec</b> Last session of the year at AFC.</li><li><b>Sat 28 Nov</b> Booking deadline is Saturday 28th November.</li><li><b>Sat 28 Nov</b> Booking deadline is 28th November.</li><li><b>Fri 4 Dec</b> Normal session cancelled for Christingle &amp; Service.</li><li><b>Fri 4 Dec</b> Session moved to 1st Apsley HQ, 6:00-7:30pm.</li><li><b>Fri 4 Dec</b> Cub Christingle &amp; Service at AFC, replaces normal session.</li><li><b>Fri 4 Dec</b> Changed venue to AFC for Christingle &amp; Service.</li><li><b>Fri 4 Dec</b> No session at AFC; party at 1st Apsley HQ instead.</li><li><b>Fri 4 Dec</b> No session at AFC; session at All Saints Church instead.</li><li><b>Fri 4 Dec</b> Special Christmas party instead of regular session.</li></ul></div>
 <h2>Weekly meetings</h2><div class="ev" data-r="squirrels">
@@ -64,39 +113,11 @@ a{color:var(--accent)}
 </div><div class="muted">No regular meetings in school holidays.</div>
 <h2>Events</h2>
 <h3 class="mh">November 2026</h3><div class="ev" data-r="other">
-  <div class="date"><span>Sat</span><b>21</b></div>
-  <div class="main"><div class="t">Kings Langley Christmas Lights (Scouts)</div>
-  
-  <div><span class="chip" style="--c:#6a4c93">Scouts, Explorers &amp; District</span></div>
-  </div>
-  
-</div><div class="ev" data-r="other">
-  <div class="date"><span>Sun</span><b>22</b></div>
-  <div class="main"><div class="t">Berkhamsted Festival of Light (Scouts)</div>
-  
-  <div><span class="chip" style="--c:#6a4c93">Scouts, Explorers &amp; District</span></div>
-  </div>
-  
-</div><div class="ev" data-r="cubs5 other">
-  <div class="date"><span>Sun</span><b>22</b></div>
-  <div class="main"><div class="t">Cub &amp; Scout Hike</div>
-  
-  <div><span class="chip" style="--c:#2e7d32">Cubs</span><span class="chip" style="--c:#6a4c93">Scouts, Explorers &amp; District</span></div>
-  </div>
-  
-</div><div class="ev" data-r="other">
   <div class="date"><span>Sat</span><b>28</b></div>
   <div class="main"><div class="t">Woodhall Farm Christmas Fair (Scouts)</div>
   
   <div><span class="chip" style="--c:#6a4c93">Scouts, Explorers &amp; District</span></div>
   <div class="notes">7pm (to be confirmed). 5th Hemel Scouts leaders Christmas gathering at Toby Carvery (moved from Sat 12 Dec) - which Toby not set yet. Everyone pays their own way. Gluten-free Yorkshire/gravy/stuffing possible if you bring them in earlier in the day.</div></div>
-  
-</div><div class="ev" data-r="cubs5">
-  <div class="date"><span>Sun</span><b>29</b></div>
-  <div class="main"><div class="t">Cub Badge Day (District - Scientist)</div>
-  
-  <div><span class="chip" style="--c:#2e7d32">Cubs</span></div>
-  </div>
   
 </div><h3 class="mh">December 2026</h3><div class="ev" data-r="squirrels">
   <div class="date"><span>Fri</span><b>4</b></div>
@@ -376,5 +397,48 @@ document.querySelectorAll('.f').forEach(b=>b.onclick=()=>{
     while(n&&n.classList.contains('ev')){if(!n.classList.contains('hide'))any=true;n=n.nextElementSibling}
     h.style.display=any?'':'none'});
 });
+</script>
+
+<script>
+(function(){
+const HOOK="https://ujnuokx2i7mnukt0obt2n6il6huf3fz2.ui.nabu.casa/api/webhook/scouts-friday-eff21f0424a2435756b98180c462db27", HASH="86af57ff8bc4069f29e904072a16e955cb4b0724af96d6916407e25ac2281060";
+const cards=[...document.querySelectorAll('.fri')]; if(!cards.length) return;
+const ls=(k,v)=>{try{if(v===undefined) return localStorage.getItem(k)||''; localStorage.setItem(k,v)}catch(e){return ''}};
+const fmt=a=>{if(!a) return ''; const d=new Date(a); return isNaN(d)?'':d.toLocaleString('en-GB',{weekday:'short',hour:'numeric',minute:'2-digit'})};
+let data={};
+function show(){cards.forEach(c=>{if(c.dataset.pending) return; const x=data[c.dataset.role]||{};
+  c.querySelector('.ftext').textContent=x.text||'';
+  c.querySelector('.fby').textContent=x.text&&x.by?('Added by '+x.by+(x.at?' · '+fmt(x.at):'')):'';})}
+function load(){return fetch('friday.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j) return null; data={}; (j.sections||[]).forEach(x=>data[x.role]=x); return j;}).catch(()=>null)}
+async function sha(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+cards.forEach(c=>{
+  const f=c.querySelector('.fform'), ta=f.querySelector('textarea'), nm=f.querySelector('.fname'),
+        cd=f.querySelector('.fcode'), msg=f.querySelector('.fmsg');
+  c.querySelector('.edit').onclick=()=>{ta.value=c.querySelector('.ftext').textContent; nm.value=ls('fri_name');
+    cd.value=ls('fri_code'); msg.textContent=''; f.hidden=false; ta.focus()};
+  f.querySelector('.cancel').onclick=()=>{f.hidden=true};
+  f.onsubmit=async e=>{e.preventDefault();
+    const code=cd.value.trim().toUpperCase(), name=nm.value.trim(), text=ta.value;
+    if(!name){msg.textContent='Please add your name.'; return}
+    if(await sha('scouts-friday:'+code)!==HASH){msg.textContent="That code isn't right."; return}
+    ls('fri_name',name); ls('fri_code',code); msg.textContent='Saving…';
+    try{await fetch(HOOK,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:new URLSearchParams({section:c.dataset.role,text:text,by:name,code:code})})}
+    catch(err){msg.textContent='Could not save - check your signal and try again.'; return}
+    f.hidden=true; c.dataset.pending='1';
+    const want=text.trim();
+    c.querySelector('.ftext').textContent=want;
+    c.querySelector('.fby').textContent='Saved - everyone will see it within a couple of minutes.';
+    let n=0;
+    const poll=setInterval(async()=>{n++; await load(); const x=data[c.dataset.role]||{};
+      const done=(x.text||'')===want.replace(/\r/g,'');
+      if(done||n>15){clearInterval(poll); delete c.dataset.pending;
+        if(done) show(); else c.querySelector('.fby').textContent='Still updating - refresh in a minute.';}},15000);
+  };
+});
+load().then(show);
+})();
 </script>
 </body></html>

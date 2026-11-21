@@ -1,0 +1,24 @@
+{
+ "friday": "2026-11-27",
+ "holiday": "",
+ "sections": [
+  {
+   "role": "squirrels",
+   "title": "5th Hemel Squirrels",
+   "time": "5pm–5:45pm"
+  },
+  {
+   "role": "beavers",
+   "title": "5th Hemel Beavers",
+   "time": "6pm–7pm",
+   "text": "TEST - ignore (Claude)\nLine two <b>not bold</b> & \"quotes\"",
+   "by": "Claude test",
+   "at": "2026-11-21T09:36"
+  },
+  {
+   "role": "cubs5",
+   "title": "5th Hemel Cubs",
+   "time": "7pm–8:30pm"
+  }
+ ]
+}
