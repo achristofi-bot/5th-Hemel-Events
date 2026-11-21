@@ -5,12 +5,14 @@
   {
    "role": "squirrels",
    "title": "5th Hemel Squirrels",
-   "time": "5pm–5:45pm"
+   "time": "5pm–5:45pm",
+   "planned": []
   },
   {
    "role": "beavers",
    "title": "5th Hemel Beavers",
    "time": "6pm–7pm",
+   "planned": [],
    "text": "Questions for Youshape badge",
    "by": "Anthony",
    "at": "2026-11-21T09:39"
@@ -18,7 +20,11 @@
   {
    "role": "cubs5",
    "title": "5th Hemel Cubs",
-   "time": "7pm–8:30pm"
+   "time": "7pm–8:30pm",
+   "planned": [],
+   "text": "Bases only, no games - 7pm start.\n4 bases, 20 min each:\n• Fire lighting - car park\n• Kelly kettle / Billy can on the stone table in the walkway - reheat pre-cooked pasta, add sauce (and eat it)\n• Light bulb changing, plus something else - maybe aeroplane making\n• Sewing a badge onto a jumper (Chris)\n\nThe fireman is being invited.",
+   "by": "Chris",
+   "at": "2026-11-21T09:42"
   }
  ]
 }
