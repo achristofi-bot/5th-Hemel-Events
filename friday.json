@@ -15,7 +15,13 @@
    "role": "beavers",
    "title": "5th Hemel Beavers",
    "time": "6pm–7pm",
-   "planned": [],
+   "planned": [
+    {
+     "title": "5th Adeyfield Beavers",
+     "time": "6pm–7pm",
+     "location": ""
+    }
+   ],
    "text": "Questions for Youshape badge\n\nKyri swimming badge",
    "by": "Anthony",
    "at": "2026-11-21T09:48"
