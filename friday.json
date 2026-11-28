@@ -1,12 +1,18 @@
 {
- "friday": "2026-11-27",
+ "friday": "2026-12-04",
  "holiday": "",
  "sections": [
   {
    "role": "squirrels",
    "title": "5th Hemel Squirrels",
    "time": "5pm–5:45pm",
-   "planned": []
+   "planned": [
+    {
+     "title": "Squirrel Faith Event",
+     "time": "4:45pm–6pm",
+     "location": "All Saints Church, Apsley"
+    }
+   ]
   },
   {
    "role": "beavers",
@@ -14,14 +20,11 @@
    "time": "6pm–7pm",
    "planned": [
     {
-     "title": "5th Adeyfield Beavers",
-     "time": "6pm–7pm",
-     "location": ""
+     "title": "Beaver Christmas Party",
+     "time": "5:30pm–7pm",
+     "location": "1st Apsley Scout HQ"
     }
-   ],
-   "text": "Logan collector",
-   "by": "Anthony",
-   "at": "2026-11-27T22:48"
+   ]
   },
   {
    "role": "cubs5",
@@ -29,14 +32,11 @@
    "time": "7pm–8:30pm",
    "planned": [
     {
-     "title": "5th Adeyfield Cubs",
-     "time": "7pm–8:30pm",
-     "location": ""
+     "title": "Cub Christingle",
+     "time": "6:45pm–8:30pm",
+     "location": "Adeyfield Free Church (Plaza entrance), Maylands Avenue, HP2 4GZ"
     }
-   ],
-   "text": "Olivia\nSwimming badge.",
-   "by": "Anthony",
-   "at": "2026-11-27T22:49"
+   ]
   }
  ]
 }
